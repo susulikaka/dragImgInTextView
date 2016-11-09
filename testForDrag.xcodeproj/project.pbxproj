@@ -15,6 +15,8 @@
 		84FEB8A51D7574C000A26027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEB8A31D7574C000A26027 /* LaunchScreen.storyboard */; };
 		84FEB8B01D7574C100A26027 /* testForDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEB8AF1D7574C100A26027 /* testForDragTests.m */; };
 		84FEB8BB1D7574C100A26027 /* testForDragUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEB8BA1D7574C100A26027 /* testForDragUITests.m */; };
+		84FEB8CB1D75784E00A26027 /* TextCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEB8C91D75784E00A26027 /* TextCollectionViewCell.m */; };
+		84FEB8CC1D75784E00A26027 /* TextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FEB8CA1D75784E00A26027 /* TextCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		84FEB8B61D7574C100A26027 /* testForDragUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testForDragUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FEB8BA1D7574C100A26027 /* testForDragUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testForDragUITests.m; sourceTree = "<group>"; };
 		84FEB8BC1D7574C100A26027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FEB8C81D75784E00A26027 /* TextCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextCollectionViewCell.h; sourceTree = "<group>"; };
+		84FEB8C91D75784E00A26027 /* TextCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextCollectionViewCell.m; sourceTree = "<group>"; };
+		84FEB8CA1D75784E00A26027 /* TextCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				84FEB8991D7574C000A26027 /* AppDelegate.m */,
 				84FEB89B1D7574C000A26027 /* ViewController.h */,
 				84FEB89C1D7574C000A26027 /* ViewController.m */,
+				84FEB8C81D75784E00A26027 /* TextCollectionViewCell.h */,
+				84FEB8C91D75784E00A26027 /* TextCollectionViewCell.m */,
+				84FEB8CA1D75784E00A26027 /* TextCollectionViewCell.xib */,
 				84FEB89E1D7574C000A26027 /* Main.storyboard */,
 				84FEB8A11D7574C000A26027 /* Assets.xcassets */,
 				84FEB8A31D7574C000A26027 /* LaunchScreen.storyboard */,
@@ -246,6 +254,7 @@
 				84FEB8A51D7574C000A26027 /* LaunchScreen.storyboard in Resources */,
 				84FEB8A21D7574C000A26027 /* Assets.xcassets in Resources */,
 				84FEB8A01D7574C000A26027 /* Main.storyboard in Resources */,
+				84FEB8CC1D75784E00A26027 /* TextCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				84FEB89D1D7574C000A26027 /* ViewController.m in Sources */,
 				84FEB89A1D7574C000A26027 /* AppDelegate.m in Sources */,
 				84FEB8971D7574C000A26027 /* main.m in Sources */,
+				84FEB8CB1D75784E00A26027 /* TextCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
